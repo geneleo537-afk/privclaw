@@ -1,0 +1,87 @@
+# Environment
+.env
+.env.local
+.env.production
+.env.test
+
+# RSA Keys
+keys/*.pem
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.tar.gz
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+
+# MinIO data (local development)
+minio-data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

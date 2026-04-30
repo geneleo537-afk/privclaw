@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node.js
+node_modules/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker
+docker-compose*.yml
+Makefile
+
+# Documentation
+*.md
+LICENSE
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+.coverage
+
+# Temporary
+tmp/
+temp/
+*.tmp

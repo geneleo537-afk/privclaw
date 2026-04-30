@@ -1,0 +1,2 @@
+-- 数据库 schema 由 Alembic 迁移脚本管理
+-- 启动后执行: docker compose exec backend alembic upgrade head
