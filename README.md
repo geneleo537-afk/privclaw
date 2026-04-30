@@ -1,6 +1,6 @@
 # PrivClaw
 
-> A self-hostable AI plugin marketplace with built-in payments, wallet, and admin dashboard. Deploy in 30 seconds with Docker.
+> PrivClaw is a secure, enterprise-oriented plugin marketplace, serving OpenClaw workflow customization and solving public plugin security risks for enterprises.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/Docker-One--Click-blue)](https://www.docker.com/)
@@ -8,6 +8,21 @@
 [![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)](https://www.postgresql.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+---
+
+## Background & Business Logic
+
+We provide enterprise-level AI workflow deployment services based on OpenClaw. When enterprises build custom AI workflows, a large number of functional plugins are required.
+
+Public plugin hubs contain unregulated, malicious and unsafe plugins, which bring huge security risks to enterprise usage. To solve this problem, PrivClaw is built as a private, audited, secure AI plugin marketplace.
+
+### Commercial Closed Loop
+
+- We deploy exclusive AI workflows for enterprises.
+- Enterprises can only purchase audited, high-security plugins from our platform to avoid security accidents.
+- High-quality developers are invited to submit and monetize standardized plugins.
+- Form a stable business ecosystem of workflow customization + official plugin supply.
 
 ---
 
@@ -46,13 +61,15 @@ After running `make seed`, you'll have 3 demo accounts:
 
 ## Screenshots
 
+> Deploy locally to see it in action. Screenshots will be added soon.
+
 | Home Page | Plugin Marketplace | Admin Dashboard |
 |-----------|-------------------|-----------------|
-| ![Home](微信图片_20260430205155_830_208.jpg) | ![Marketplace](微信图片_20260430205153_829_208.jpg) | ![Admin](微信图片_20260430205156_831_208.jpg) |
+| ![Home](docs/screenshots/home.png) | ![Marketplace](docs/screenshots/marketplace.png) | ![Admin](docs/screenshots/admin.png) |
 
-| Plugin Detail |
-|---------------|
-| ![Detail](微信图片_20260430205158_832_208.jpg) |
+| Plugin Detail | Wallet | Order Flow |
+|---------------|--------|------------|
+| ![Detail](docs/screenshots/detail.png) | ![Wallet](docs/screenshots/wallet.png) | ![Order](docs/screenshots/order.png) |
 
 ## Feature Checklist
 
