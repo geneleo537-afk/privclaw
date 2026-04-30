@@ -15,5 +15,5 @@ bcrypt==4.2.0
 python-multipart==0.0.20
 alipay-sdk-python==3.7.1018
 minio==7.2.13
-celery==5.4.0
+celery==5.6.3
 oss2==2.18.6
