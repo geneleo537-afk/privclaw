@@ -61,15 +61,13 @@ After running `make seed`, you'll have 3 demo accounts:
 
 ## Screenshots
 
-> Deploy locally to see it in action. Screenshots will be added soon.
-
 | Home Page | Plugin Marketplace | Admin Dashboard |
 |-----------|-------------------|-----------------|
-| ![Home](docs/screenshots/home.png) | ![Marketplace](docs/screenshots/marketplace.png) | ![Admin](docs/screenshots/admin.png) |
+| ![Home](微信图片_20260430205155_830_208.jpg) | ![Marketplace](微信图片_20260430205153_829_208.jpg) | ![Admin](微信图片_20260430205156_831_208.jpg) |
 
-| Plugin Detail | Wallet | Order Flow |
-|---------------|--------|------------|
-| ![Detail](docs/screenshots/detail.png) | ![Wallet](docs/screenshots/wallet.png) | ![Order](docs/screenshots/order.png) |
+| Plugin Detail |
+|---------------|
+| ![Detail](微信图片_20260430205158_832_208.jpg) |
 
 ## Feature Checklist
 
