@@ -71,7 +71,17 @@ jobs:
           APP_ENV: testing
           APP_SECRET_KEY: test-secret-key-for-ci
           JWT_SECRET: test-jwt-secret-for-ci
+          JWT_ALGORITHM: HS256
           REDIS_URL: redis://localhost:6379/0
+          DATA_ENCRYPTION_KEY: dGVzdC1lbmNyeXB0aW9uLWtleS0zMmNoYXJz
+          MINIO_ENDPOINT: localhost:9000
+          MINIO_ACCESS_KEY: minioadmin
+          MINIO_SECRET_KEY: minioadmin
+          MINIO_BUCKET: privclaw
+          ALIPAY_APP_ID: test
+          ALIPAY_PRIVATE_KEY: test
+          ALIPAY_PUBLIC_KEY: test
+          ALIPAY_NOTIFY_URL: http://localhost:8000/api/v1/payments/alipay/notify
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:

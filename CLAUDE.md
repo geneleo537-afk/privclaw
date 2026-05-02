@@ -2,51 +2,49 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## 项目概述
+## Project Overview
 
-OpenClaw 插件交易平台（龙虾超市），面向武汉本地企业的插件市场 SaaS 应用。活跃版本在 `1.1/` 目录，`1.0/` 为旧版参考。
+PrivClaw - A secure, enterprise-oriented AI plugin marketplace serving OpenClaw workflow customization.
 
-## 技术栈
+## Tech Stack
 
-- **后端**: FastAPI 0.115.6 + Python 3.12 + SQLAlchemy 2.0 async + asyncpg + PostgreSQL 16
-- **前端**: Next.js 15.1.3 + React 19 + TypeScript 5 + TailwindCSS 4
-- **缓存/队列**: Redis 7 (Celery broker)
-- **异步任务**: Celery 5.4.0
-- **对象存储**: MinIO (开发) / 阿里云 OSS (生产)
-- **支付**: 支付宝 SDK（沙箱 & 正式）
-- **状态管理**: Zustand (auth 持久化) + React Query (API 缓存)
-- **UI**: Radix UI + Lucide React 图标 + React Hot Toast
+- **Backend**: FastAPI 0.115.6 + Python 3.12 + SQLAlchemy 2.0 async + asyncpg + PostgreSQL 16
+- **Frontend**: Next.js 15.1.3 + React 19 + TypeScript 5 + TailwindCSS 4
+- **Cache/Queue**: Redis 7 (Celery broker)
+- **Async Tasks**: Celery 5.4.0
+- **Object Storage**: MinIO (dev) / Aliyun OSS (production)
+- **Payment**: Alipay SDK (sandbox & production)
+- **State Management**: Zustand (auth persistence) + React Query (API caching)
+- **UI**: Radix UI + Lucide React icons + React Hot Toast
 
-## 常用命令
-
-所有命令在 `1.1/` 目录下执行：
+## Common Commands
 
 ```bash
-# 开发环境（Docker Compose）
-make dev              # 启动所有服务 (postgres, redis, minio, backend, celery, frontend)
-make down             # 停止所有容器
-make logs             # 查看日志
+# Development (Docker Compose)
+make dev              # Start all services (postgres, redis, minio, backend, celery, frontend)
+make down             # Stop all containers
+make logs             # View logs
 
-# 数据库迁移（Alembic）
-make migrate          # 执行迁移
-make migration msg="描述"  # 生成新迁移
+# Database migrations (Alembic)
+make migrate          # Run migrations
+make migration msg="description"  # Generate new migration
 
-# 测试
-make test             # 运行后端 pytest（docker compose exec backend pytest -v）
-make seed             # 初始化演示数据
+# Testing
+make test             # Run backend pytest
+make seed             # Initialize demo data
 
-# 容器 Shell
-make shell-be         # 进入后端容器
-make shell-fe         # 进入前端容器
+# Container Shell
+make shell-be         # Enter backend container
+make shell-fe         # Enter frontend container
 
-# 前端单独运行（在 1.1/frontend/ 下）
-npm run dev           # 开发服务 (port 3000)
-npm run build         # 生产构建
-npm run lint          # ESLint 检查
+# Frontend standalone (in frontend/ directory)
+npm run dev           # Dev server (port 3000)
+npm run build         # Production build
+npm run lint          # ESLint check
 
-# 生产部署
-make prod             # 启动生产环境（含 nginx）
-make build            # 生产镜像构建
+# Production deployment
+make prod             # Start production (with nginx)
+make build            # Build production images
 ```
 
 ## 架构设计

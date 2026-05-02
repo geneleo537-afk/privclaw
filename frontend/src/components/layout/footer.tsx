@@ -67,10 +67,10 @@ export function Footer() {
             <h4 className="font-semibold text-sm mb-4">联系我们</h4>
             <ul className="space-y-2">
               {[
-                { label: '商务合作', href: 'mailto:business@lobstermart.com' },
-                { label: '举报问题', href: 'mailto:report@lobstermart.com' },
-                { label: '技术支持', href: 'mailto:support@lobstermart.com' },
-                { label: '加入我们', href: '/careers' },
+                { label: 'Business', href: 'mailto:business@privclaw.com' },
+                { label: 'Report Issues', href: 'mailto:report@privclaw.com' },
+                { label: 'Support', href: 'mailto:support@privclaw.com' },
+                { label: 'Careers', href: '/careers' },
               ].map((item) => (
                 <li key={item.href}>
                   <Link

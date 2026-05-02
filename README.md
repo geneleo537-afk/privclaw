@@ -9,6 +9,8 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)](https://www.postgresql.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+> **🤝 We welcome contributions!** Check out [good first issues](https://github.com/geneleo537-afk/privclaw/labels/good%20first%20issue) to get started. All PRs are reviewed and merged quickly!
+
 ---
 
 ## Background & Business Logic
@@ -61,15 +63,13 @@ After running `make seed`, you'll have 3 demo accounts:
 
 ## Screenshots
 
-> Deploy locally to see it in action. Screenshots will be added soon.
-
 | Home Page | Plugin Marketplace | Admin Dashboard |
 |-----------|-------------------|-----------------|
-| ![Home](docs/screenshots/home.png) | ![Marketplace](docs/screenshots/marketplace.png) | ![Admin](docs/screenshots/admin.png) |
+| ![Home](微信图片_20260430205155_830_208.jpg) | ![Marketplace](微信图片_20260430205153_829_208.jpg) | ![Admin](微信图片_20260430205156_831_208.jpg) |
 
-| Plugin Detail | Wallet | Order Flow |
-|---------------|--------|------------|
-| ![Detail](docs/screenshots/detail.png) | ![Wallet](docs/screenshots/wallet.png) | ![Order](docs/screenshots/order.png) |
+| Plugin Detail |
+|---------------|
+| ![Detail](微信图片_20260430205158_832_208.jpg) |
 
 ## Feature Checklist
 
@@ -228,19 +228,43 @@ privclaw/
 
 ## Contributing
 
-We welcome contributions of all kinds! Please read our [Contributing Guide](CONTRIBUTING.md) to get started.
+We welcome contributions of all kinds! Whether it's fixing bugs, adding features, improving documentation, or suggesting ideas – **every contribution matters**.
+
+### How to Contribute
+
+1. **Find an Issue**: Check out [open issues](https://github.com/geneleo537-afk/privclaw/issues) or create a new one.
+2. **Fork & Clone**: Fork the repo and clone it locally.
+3. **Create a Branch**: `git checkout -b feature/your-feature-name`
+4. **Make Changes**: Write your code and add tests.
+5. **Submit a PR**: Push your branch and open a Pull Request.
 
 ### Good First Issues
 
-Look for issues labeled [`good-first-issue`](https://github.com/privclaw/privclaw/labels/good-first-issue) to find beginner-friendly tasks.
+Look for issues labeled [`good-first-issue`](https://github.com/geneleo537-afk/privclaw/labels/good%20first%20issue) to find beginner-friendly tasks.
+
+### Need Help?
+
+- Read our detailed [Contributing Guide](CONTRIBUTING.md)
+- Join the discussion in [Issues](https://github.com/geneleo537-afk/privclaw/issues)
+- Contact me directly (see [Contact](#contact) section)
 
 ### Contributors
 
 Thanks to all contributors who have helped make PrivClaw better:
 
-<a href="https://github.com/privclaw/privclaw/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=privclaw/privclaw" />
-</a>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/geneleo537-afk"><img src="https://avatars.githubusercontent.com/u/123456789?v=4" width="100px;" alt=""/><br /><sub><b>geneleo537-afk</b></sub></a><br /><a href="https://github.com/geneleo537-afk/privclaw/commits?author=geneleo537-afk" title="Code">💻</a> <a href="https://github.com/geneleo537-afk/privclaw/commits?author=geneleo537-afk" title="Documentation">📖</a></td>
+  </tr>
+</table>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+*Want to be here? [Submit your first PR](CONTRIBUTING.md) today!*
 
 ## License
 
