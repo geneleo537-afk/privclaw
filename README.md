@@ -9,6 +9,8 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)](https://www.postgresql.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+> **🤝 We welcome contributions!** Check out [good first issues](https://github.com/geneleo537-afk/privclaw/labels/good%20first%20issue) to get started. All PRs are reviewed and merged quickly!
+
 ---
 
 ## Background & Business Logic
