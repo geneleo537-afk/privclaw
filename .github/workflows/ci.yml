@@ -83,7 +83,7 @@ jobs:
           ALIPAY_PUBLIC_KEY: test
           ALIPAY_NOTIFY_URL: http://localhost:8000/api/v1/payments/alipay/notify
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v6
         with:
           file: ./backend/coverage.xml
           fail_ci_if_error: false
